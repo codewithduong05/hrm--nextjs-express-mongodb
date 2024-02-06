@@ -4,6 +4,9 @@ export function useAuth() {
   const loginUser = async (data) => {
     return login(data);
   };
+  const signupUser = async (data) => {
+    return login(data);
+  };
+  return { loginUser,signupUser };
 
-  return { loginUser };
 }
