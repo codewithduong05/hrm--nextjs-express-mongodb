@@ -58,6 +58,15 @@ Hệ thống HRM là nền tảng trực tuyến giúp doanh nghiệp quản lý
   <li>Environment Variables (.env)</li>
   <li>MVC model</li>
 </ul>
+<h2>6. 📘 Documentation</h2> 
+- [Overview](docs/01-tech-overview.md)
+- [Setup & Run](docs/02-setup.md)
+- [Architecture](docs/03-architecture.md)
+- [API Documentation](docs/04-api.md)
+- [Authentication](docs/05-auth.md)
+- [Database Design](docs/06-database.md)
+- [Development Guide](docs/07-development-guide.md)
+- [Troubleshooting](docs/08-troubleshooting.md)
 <h2>5. Structure folder</h2>
 ## Status </br>
 🚧 In development
