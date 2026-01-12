@@ -1,3 +1,3 @@
+- Set up project (Docker , server(backend))
 - Create project 
-- Set up project
 

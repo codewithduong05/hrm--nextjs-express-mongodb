@@ -1,12 +1,24 @@
 {
   "name": "hrmanagementsystem",
   "version": "1.0.0",
-  "description": "",
+  "description": "Giới thiệu</h2> Hệ thống HRM là nền tảng trực tuyến giúp doanh nghiệp quản lý toàn diện nhân sự: hồ sơ, chấm công, lương thưởng và đánh giá hiệu suất. Admin điều hành và kiểm soát toàn bộ quy trình nhân sự; Employee chủ động cập nhật thông tin, theo dõi chấm công – lương thưởng và tham gia đánh giá hiệu suất.",
   "main": "index.js",
   "scripts": {
+    "dev_server" : "node --watch server/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewithduong05/hrm--nextjs-express-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codewithduong05/hrm--nextjs-express-mongodb/issues"
+  },
+  "homepage": "https://github.com/codewithduong05/hrm--nextjs-express-mongodb#readme"
 }
