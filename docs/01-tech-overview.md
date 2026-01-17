@@ -150,7 +150,7 @@ III . Clean Code
 4 tiers: Distribution -> Applications -> Domains -> Infrastructure.
 
 Project Structure
-```text
+
 ├─ src/
 │  ├─ main.js             
 │  ├─ app.js             

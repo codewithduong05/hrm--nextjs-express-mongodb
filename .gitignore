@@ -20,5 +20,6 @@ yarn-error.log*
 next-env.d.ts
 
 
-# cmd or s
+# cmd or s and folder
 test.md
+folder_structe.md
