@@ -146,3 +146,46 @@ Bảng dữ liệu:
   system_configs
   (logic tổng hợp từ các bảng khác)
 
+III . Clean Code
+4 tiers: Distribution -> Applications -> Domains -> Infrastructure.
+
+Project Structure
+```text
+├─ src/
+│  ├─ main.js             
+│  ├─ app.js             
+│
+│  ├─ config/
+│  │  ├─ env.js
+│  │  ├─ database.js
+│  │  ├─ roles.js
+│  │  └─ permissions.js
+│
+│  ├─ shared/                
+│  │  ├─ errors/
+│  │  ├─ constants/
+│  │  ├─ utils/
+│  │  └─ base/
+│  │     ├─ BaseRepository.js
+│  │     ├─ BaseService.js
+│  │     └─ BaseController.js
+│
+│  ├─ modules/
+│  │  ├─ attendance/
+│  │  │  ├─ domain/
+│  │  │  ├─ application/
+│  │  │  ├─ infrastructure/
+│  │  │  └─ delivery/
+│  │  ├─ payroll/
+│  │  ├─ users/
+│  │  └─ ...
+│
+│  ├─ middlewares/
+│  │  ├─ auth.middleware.js
+│  │  ├─ permission.middleware.js
+│  │  └─ error.middleware.js
+│
+│  └─ routes.js
+│
+├─ Dockerfile
+└─ package.json
