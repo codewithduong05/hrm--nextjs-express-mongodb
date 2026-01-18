@@ -1,0 +1,1 @@
+const container = import('@/modules/users/infrastructure/container.js')
