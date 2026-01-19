@@ -26,3 +26,4 @@ class CreateUserUseCase {
         });
     }
 }
+export default CreateUserUseCase
