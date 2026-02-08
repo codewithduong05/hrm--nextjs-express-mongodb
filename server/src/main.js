@@ -9,7 +9,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const frontendPath = path.join(__dirname, '../../frontend/dist');
+const frontendPath = path.join(__dirname, '../../frontend/out');
 
 console.log("Debug !!! FE_PATH:", frontendPath);
 if (process.env.NODE_ENV === "production") {
